@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://soupault.app/atom.xml</id>
+  <title>beauhilton</title>
+  <updated>1995-01-01T00:00:00+00:00</updated>
+  <author>
+    <name>beau hilton</name>
+    <email>beau@beauhilton.com</email>
+  </author>
+  <generator uri="https://soupault.app" version="4.3.1">soupault</generator>
+  <logo>https://soupault.app/images/soupault_stick_horse.png</logo>
+  <subtitle>beau's site</subtitle>
+  <entry>
+    <id>https://soupault.app/posts/my-first-post</id>
+    <title>My first post</title>
+    <updated>1995-01-01T00:00:00+00:00</updated>
+    <content type="html">
+    This is my first post in the brand new soupault blog. It’s really interesting, except for its
+introductory paragraph of course. That one is boring and should never be displayed on the front page.
+    </content>
+    <link href="https://soupault.app/posts/my-first-post" rel="alternate"/>
+  </entry>
+  
+</feed>

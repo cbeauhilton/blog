@@ -1,0 +1,13 @@
+[
+  {
+    "url": "/posts/my-first-post",
+    "page_file": "site/posts/my-first-post.md",
+    "nav_path": [
+      "posts"
+    ],
+    "reading_time": null,
+    "excerpt": "This is my first post in the brand new soupault blog. It’s really interesting, except for its\nintroductory paragraph of course. That one is boring and should never be displayed on the front page.",
+    "date": "1995-01-01",
+    "title": "My first post"
+  }
+]
