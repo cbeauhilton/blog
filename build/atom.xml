@@ -25,17 +25,6 @@ despite goofy and/or downright bad location searches.
   </entry>
   
   <entry>
-    <id>https://soupault.app/posts/my-first-post</id>
-    <title>My first post</title>
-    <updated>1995-01-01T00:00:00+00:00</updated>
-    <content type="html">
-    This is my first post in the brand new soupault blog. It’s really interesting, except for its
-introductory paragraph of course. That one is boring and should never be displayed on the front page.
-    </content>
-    <link href="https://soupault.app/posts/my-first-post" rel="alternate"/>
-  </entry>
-  
-  <entry>
     <id>https://soupault.app/posts/employee-wifi</id>
     <title>Set Up Enterprise Wifi on Arch Linux</title>
     <updated>1995-01-01T00:00:00+00:00</updated>
