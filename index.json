@@ -1,13 +1,72 @@
 [
   {
+    "url": "/posts/geocheatcode",
+    "page_file": "site/posts/geocheatcode.md",
+    "nav_path": [
+      "posts"
+    ],
+    "excerpt": "Here is background and code\nfor a trick I use to get\nGoogle to give me best-in-class guesses \nfor latitude and longitude,\ndespite goofy and/or downright bad location searches.",
+    "date": "1996-01-01",
+    "title": "geocheatcode"
+  },
+  {
     "url": "/posts/my-first-post",
     "page_file": "site/posts/my-first-post.md",
     "nav_path": [
       "posts"
     ],
-    "reading_time": null,
     "excerpt": "This is my first post in the brand new soupault blog. It’s really interesting, except for its\nintroductory paragraph of course. That one is boring and should never be displayed on the front page.",
     "date": "1995-01-01",
     "title": "My first post"
+  },
+  {
+    "url": "/posts/employee-wifi",
+    "page_file": "site/posts/employee-wifi.md",
+    "nav_path": [
+      "posts"
+    ],
+    "excerpt": "Most big institutions have guest and employee wifi networks.\nGuest wifi is usually fine, fast enough for the basics,\nbut far inferior to employee wifi.\nOn a custom-built OS, such as a fairly minimalist Linux distribution, \ngetting the employee wifi to work\ncan be a beast.",
+    "date": "1995-01-01",
+    "title": "Set Up Enterprise Wifi on Arch Linux"
+  },
+  {
+    "url": "/posts/ugbsd",
+    "page_file": "site/posts/ugbsd.md",
+    "nav_path": [
+      "posts"
+    ],
+    "excerpt": "First of all, don’t do how I do. Upgrade your installs regularly.\nOpenBSD makes it very easy.",
+    "date": null,
+    "title": "Upgrading out-of-date OpenBSD installs"
+  },
+  {
+    "url": "/posts/mr-2021",
+    "page_file": "site/posts/mr-2021.md",
+    "nav_path": [
+      "posts"
+    ],
+    "excerpt": "Details modified, generalized, and otherwise fudged to be\nHIPAA-compliant.",
+    "date": null,
+    "title": "Morning Report 08/23/2021"
+  },
+  {
+    "url": "/posts/mime",
+    "page_file": "site/posts/mime.md",
+    "nav_path": [
+      "posts"
+    ],
+    "excerpt": "As of today (2022-11-13) my website lives on an OpenBSD server hosted\nat <a href=\"https://vultr.com\">vultr</a>.",
+    "date": null,
+    "title": "fix MIME Types to unbreak RSS feeds served by OpenBSD’s\nhttpd(8)"
+  },
+  {
+    "url": "/posts/intake-2022-03-25",
+    "page_file": "site/posts/intake-2022-03-25.md",
+    "nav_path": [
+      "posts"
+    ],
+    "excerpt": "28M w few weeks of trouble swallowing (gets stuck “right here,”\npoints to mid-sternum), solid/liquids same, gradual over months-weeks,\nsome vomiting w/o specific timing. Sometimes has pain when not eating.\n20lb weight loss over months. No skin lesions. ?thrush.",
+    "date": null,
+    "title": "intake"
   }
 ]

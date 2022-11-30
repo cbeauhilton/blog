@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://soupault.app/atom.xml</id>
   <title>beauhilton</title>
-  <updated>1995-01-01T00:00:00+00:00</updated>
+  <updated>1996-01-01T00:00:00+00:00</updated>
   <author>
     <name>beau hilton</name>
     <email>beau@beauhilton.com</email>
@@ -10,6 +10,20 @@
   <generator uri="https://soupault.app" version="4.3.1">soupault</generator>
   <logo>https://soupault.app/images/soupault_stick_horse.png</logo>
   <subtitle>beau's site</subtitle>
+  <entry>
+    <id>https://soupault.app/posts/geocheatcode</id>
+    <title>geocheatcode</title>
+    <updated>1996-01-01T00:00:00+00:00</updated>
+    <content type="html">
+    Here is background and code
+for a trick I use to get
+Google to give me best-in-class guesses 
+for latitude and longitude,
+despite goofy and/or downright bad location searches.
+    </content>
+    <link href="https://soupault.app/posts/geocheatcode" rel="alternate"/>
+  </entry>
+  
   <entry>
     <id>https://soupault.app/posts/my-first-post</id>
     <title>My first post</title>
@@ -19,6 +33,68 @@
 introductory paragraph of course. That one is boring and should never be displayed on the front page.
     </content>
     <link href="https://soupault.app/posts/my-first-post" rel="alternate"/>
+  </entry>
+  
+  <entry>
+    <id>https://soupault.app/posts/employee-wifi</id>
+    <title>Set Up Enterprise Wifi on Arch Linux</title>
+    <updated>1995-01-01T00:00:00+00:00</updated>
+    <content type="html">
+    Most big institutions have guest and employee wifi networks.
+Guest wifi is usually fine, fast enough for the basics,
+but far inferior to employee wifi.
+On a custom-built OS, such as a fairly minimalist Linux distribution, 
+getting the employee wifi to work
+can be a beast.
+    </content>
+    <link href="https://soupault.app/posts/employee-wifi" rel="alternate"/>
+  </entry>
+  
+  <entry>
+    <id>https://soupault.app/posts/ugbsd</id>
+    <title>Upgrading out-of-date OpenBSD installs</title>
+    <updated></updated>
+    <content type="html">
+    First of all, don’t do how I do. Upgrade your installs regularly.
+OpenBSD makes it very easy.
+    </content>
+    <link href="https://soupault.app/posts/ugbsd" rel="alternate"/>
+  </entry>
+  
+  <entry>
+    <id>https://soupault.app/posts/mr-2021</id>
+    <title>Morning Report 08/23/2021</title>
+    <updated></updated>
+    <content type="html">
+    Details modified, generalized, and otherwise fudged to be
+HIPAA-compliant.
+    </content>
+    <link href="https://soupault.app/posts/mr-2021" rel="alternate"/>
+  </entry>
+  
+  <entry>
+    <id>https://soupault.app/posts/mime</id>
+    <title>fix MIME Types to unbreak RSS feeds served by OpenBSD’s
+httpd(8)</title>
+    <updated></updated>
+    <content type="html">
+    As of today (2022-11-13) my website lives on an OpenBSD server hosted
+at .
+    </content>
+    <link href="https://soupault.app/posts/mime" rel="alternate"/>
+  </entry>
+  
+  <entry>
+    <id>https://soupault.app/posts/intake-2022-03-25</id>
+    <title>intake</title>
+    <updated></updated>
+    <content type="html">
+    28M w few weeks of trouble swallowing (gets stuck “right here,”
+points to mid-sternum), solid/liquids same, gradual over months-weeks,
+some vomiting w/o specific timing. Sometimes has pain when not eating.
+20lb weight loss over months. No skin lesions. ?thrush.
+    </content>
+    <link href="https://soupault.app/posts/intake-2022-03-25" rel="alternate"/>
   </entry>
   
 </feed>

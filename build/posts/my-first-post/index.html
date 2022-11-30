@@ -1,35 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cstyle%3E %23m %7B opacity:0; %7D%0A@media (prefers-color-scheme: dark) %7B %23m %7B opacity:1; %7D %23e %7B opacity:0 %7D%0A%7D %3C/style%3E%3Ctext id='m' y='.9em' font-size='90'%3E🏕️%3C/text%3E%3Ctext id='e' y='.9em' font-size='90'%3E🌞%3C/text%3E%3C/svg%3E">
+  <title></title>
   <link rel="stylesheet" href="/style.css" type="text/css">
  </head>
  <body>
-  <main>
-   <h1>
-    My first post
-   </h1>
-   <p>
-    <time id="post-date">1995-01-01</time>
-   </p>
-   <p>
-    This is an introductory paragraph. It’s long and only interesting for
+  <div id="page-wrapper">
+   <div id="header" role="banner">
+    <header class="banner">
+     <div id="banner-text">
+      <span class="banner-title"><a href="https://beauhilton.com">beauhilton</a></span>
+     </div>
+    </header>
+    <nav></nav>
+   </div>
+   <main>
+    <h1>
+     My first post
+    </h1>
+    <p>
+     <time id="post-date">1995-01-01</time>
+    </p>
+    <p>
+     This is an introductory paragraph. It’s long and only interesting for
 the really dedicated readers. Everyone else will just skip it.
-   </p>
-   <p id="post-excerpt">
-    This is my first post in the brand new soupault blog. It’s really interesting, except for its
+    </p>
+    <p id="post-excerpt">
+     This is my first post in the brand new soupault blog. It’s really interesting, except for its
 introductory paragraph of course. That one is boring and should never be displayed on the front page.
-   </p>
-   <p>
-    Well, I mean it would be interesting if there was any content in this
+    </p>
+    <p>
+     Well, I mean it would be interesting if there was any content in this
 post. Sadly, there isn’t, so it’s no better than its introductory
 paragraph.
-   </p>
-   <pre tabindex="0"><code class="language-python">my_list <span class="hl opt">= [</span><span class="hl num">0</span><span class="hl opt">,</span> <span class="hl num">1</span><span class="hl opt">,</span> <span class="hl num">2</span><span class="hl opt">,</span> <span class="hl num">3</span><span class="hl opt">]</span>
+    </p>
+    <pre tabindex="0"><code class="language-python">my_list <span class="hl opt">= [</span><span class="hl num">0</span><span class="hl opt">,</span> <span class="hl num">1</span><span class="hl opt">,</span> <span class="hl num">2</span><span class="hl opt">,</span> <span class="hl num">3</span><span class="hl opt">]</span>
 <span class="hl kwa">for</span> item <span class="hl kwa">in</span> my_list<span class="hl opt">:</span>
   <span class="hl kwa">print</span><span class="hl opt">(</span>item<span class="hl opt">)</span>
 </code></pre>
-  </main>
+   </main>
+   <div id="footnotes"></div>
+   <footer>
+    <a href="/">home</a>
+<a href="/about">about</a>
+<a href="/now">now</a>
+<a href="/posts">posts</a>
+<a href="https://notes.beauhilton.com">notes</a>
+<a href="https://talks.beauhilton.com">talks</a>
+<a href="https://git.beauhilton.com">git</a>
+<a href="/contact">contact</a>
+<a href="/feed.xml">rss</a>
+   </footer>
+  </div>
  </body>
 </html>

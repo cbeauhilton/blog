@@ -35,17 +35,13 @@ site_url = "https://soupault.app"
 
 [index]
 index = true
-
 sort_descending = true
 sort_by = "date"
-
-extract_after_widgets = ["insert-reading-time"]
 strip_tags = false
 dump_json = "index.json"
-
 section = "posts"
-
 date_formats = ["%F"]
+
 
 [index.fields.title]
 selector = ["h1"]
@@ -57,9 +53,6 @@ fallback_to_content = true
 
 [index.fields.excerpt]
 selector = ["p#post-excerpt", "p"]
-
-[index.fields.reading_time]
-selector = "span#reading-time"
 
 [index.views.posts]
 index_selector = "#posts-index"
@@ -86,7 +79,6 @@ index_template = """
   {% for e in entries %}
     <h2><a href="{{e.url}}">{{e.title}}</a></h2>
     <p><strong>Last update:</strong> {{e.date}}.</p>
-    <p><strong>Reading time:</strong> {{e.reading_time}}.</p>
     <p>{{e.excerpt}}</p>
     <a href="{{e.url}}">Read more</a>
   {% endfor %}
@@ -96,20 +88,6 @@ index_template = """
 widget = "insert_html"
 selector = "head"
 html = """ <link rel="stylesheet" href="/style.css" type="text/css"> """
-
-[widgets.insert-reading-time-container]
-section = "posts"
-widget = "insert_html"
-action = "insert_after"
-selector = "h1#post-title"
-html = '<div>Estimated reading time: <span id="reading-time"></span>.</div>'
-
-[widgets.insert-reading-time]
-after = "insert-reading-time-container"
-widget = "reading-time"
-selector = "#reading-time"
-content_selector = "main"
-reading_speed = 150
 
 [widgets.escape-html-in-pre]
 widget = "escape-html"
